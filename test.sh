@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ### Shell Script will send request to Provided URL  and it will look for HTTP_CODE  then  it will send an email if it is not 200 Success HTTP_CODE
+#This is the comment am adding here
 
 status_code=$(curl --write-out %{http_code} --silent --output /dev/null "https://safc.dunn.app/meronboard/onboard")
 
