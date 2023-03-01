@@ -1,6 +1,5 @@
 #!/bin/bash
-#!/bin/bash
-
+#This is a comment adding from SSH push
 echo "Going to create file using shell script"
 read dirname
 
