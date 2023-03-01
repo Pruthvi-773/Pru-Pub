@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#This is a comment
 echo "Going to create file using shell script"
 read filename
 
